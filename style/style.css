@@ -175,9 +175,12 @@ footer p{
 }
 
 .touch-section{
-    
+    display: flex;
+    height: 250px;
     justify-content: space-between;
     margin:90px 120px;
     padding: 20px 30px;
 }
-
+.touch-section form{
+    padding-right: 20px;
+}
