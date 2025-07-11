@@ -57,8 +57,10 @@ nav button{
     color: #252432;
     font-size: 50px;
     height: 110px;
+    justify-content: center;
+    align-items: center;
     width: 620px;
-    margin-left: 25%;
+    margin-left: 29%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800, bold;
