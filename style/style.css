@@ -1,5 +1,5 @@
 header{
-    background-image: url(../image/Hero-bg.png);
+    background-image: url("../image/Hero-bg.png");
     height: 550px;
     margin: 0px;
 }
@@ -101,30 +101,83 @@ nav button{
 .action-description{
     width: 300px;
 }
-img{
+.action-img img{
     border-radius: 15%;
     height: 260px;
 }
-.users-heading{
+.main-section{
     margin:90px 120px;
-    padding: 20px 30px;
+    height: 260px;
+    background-color: #4d47ff2a;
+    border-radius: 15px;
 }
-.users-section{
+#user-head{
+    height: 250px;
+    background-color: #4d47ff2a;
     text-align: center;
+    font-size: 22px;
+    margin:30px 120px;
+    padding-top: 4px;
+    border-radius: 15px;
+    
 }
-.section-data{
+#user-head h2{
+    font-size: 35px;
+    height: 20px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.user-section{
     display: flex;
-    justify-content: center;
-
+}
+.section p{
+    color: #0000006e;
+}
+.section h1{
+    color: #4E47FF;
+    height: 30px;
+    padding: 0 110px;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600,bold;
+    font-style: normal;
 }
 footer h1{
     color: #4E47FF;
-    height: 90px;
+    margin-top: 60px;
+    margin-left: 36%;
+    height: 60px;
     width: 160px;
-    border: none;
-    border-radius: 8px;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
+    font-size: 90px;
     font-weight: 900,bold;
     font-style: normal;
 }
+footer{
+    text-align: center;
+    margin:90px 120px;
+    padding: 20px 30px;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    color: #8987A1;
+}
+footer p{
+    width: 370px;
+    height: 40px;
+    margin-left: 28%;
+    color: #8987A1;
+}
+
+.touch-section{
+    
+    justify-content: space-between;
+    margin:90px 120px;
+    padding: 20px 30px;
+}
+
